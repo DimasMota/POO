@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            Caneta caneta = new Caneta();
+
         }
     }
 }
