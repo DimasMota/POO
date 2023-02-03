@@ -11,7 +11,17 @@ namespace ModelsDes
         public bool Nova { get; set; }
         public int PercentualTinta { get; set; }
 
-        
+        public Caneta(string _marca, string _modelo, string _cor, string _cortinta)
+        {
+            Marca = _marca;
+            Modelo = _modelo;
+            Cor = _cor;
+            CorTinta = _cortinta;
+
+
+            Nova = true;
+            PercentualTinta = 100;
+        }
         
         
         public void Escrever(int _escrita)
