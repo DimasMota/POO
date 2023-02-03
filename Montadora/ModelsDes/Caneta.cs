@@ -37,6 +37,12 @@ namespace ModelsDes
             {
                 PercentualTinta = 0;
             }
+            if (PercentualTinta <= 0)
+            {
+                Console.WriteLine("Caneta sem tinta");
+                Console.ReadLine();
+                return;
+            }
         }
 
         public void Exibir()
