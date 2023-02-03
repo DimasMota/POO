@@ -17,7 +17,12 @@ namespace ModelsDes
         public void Escrever(int _escrita)
         {
             PercentualTinta = PercentualTinta - _escrita;
-            Nova = false;
+            
+            if (PercentualTinta < 90)
+            {
+                Nova = false;
+            }
+            
             if(PercentualTinta < 0)
             {
                 PercentualTinta = 0;
