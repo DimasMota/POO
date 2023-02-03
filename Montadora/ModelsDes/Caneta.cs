@@ -39,6 +39,16 @@ namespace ModelsDes
             }
         }
 
+        public void Exibir()
+        {
+            Console.WriteLine("Marca:" + Marca);
+            Console.WriteLine("Modelo:" + Modelo);
+            Console.WriteLine("Cor da Caneta: " + Cor);
+            Console.WriteLine("Cor da Tinta: " + CorTinta);
+            Console.WriteLine("Nova: " + Nova);
+            Console.WriteLine("Quantidade de Tinta: " + PercentualTinta);
+        }
+
     }
 
    

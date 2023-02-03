@@ -10,12 +10,11 @@ namespace ConsoleAppPrincipal
 
 
 
-            Console.WriteLine("Marca:" + caneta1.Marca);
-            Console.WriteLine("Modelo:" + caneta1.Modelo);
-            Console.WriteLine("Cor da Caneta: " + caneta1.Cor);
-            Console.WriteLine("Cor da Tinta: " + caneta1.CorTinta);
-            Console.WriteLine("Nova: " + caneta1.Nova);
-            Console.WriteLine("Quantidade de Tinta: " + caneta1.PercentualTinta);
+
+
+            caneta1.Exibir();
+
+
 
             Console.WriteLine("\n\n");
 
@@ -23,14 +22,11 @@ namespace ConsoleAppPrincipal
             int x = Convert.ToInt32(Console.ReadLine());
 
             caneta1.Escrever(x);
-            
-            Console.WriteLine("Marca:" + caneta1.Marca);
-            Console.WriteLine("Modelo:" + caneta1.Modelo); 
-            Console.WriteLine("Cor da Caneta: " + caneta1.Cor);
-            Console.WriteLine("Cor da Tinta: " + caneta1.CorTinta);
-            Console.WriteLine("Nova: " + caneta1.Nova);
-            Console.WriteLine("Quantidade de Tinta: " + caneta1.PercentualTinta);
-        
+
+            caneta1.Exibir();
+
+
+
 
         }
     }
