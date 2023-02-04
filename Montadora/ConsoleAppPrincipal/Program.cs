@@ -6,14 +6,13 @@ namespace ConsoleAppPrincipal
     {
         static void Main(string[] args)
         {
-            Pneu pneu1 = new Pneu(16, 150, false, "Carro de passeio");
-           
-           
+            Pneu pneu1 = new Pneu(16, 150, "Carro de passeio");
+                      
 
+            Pneu pneu2 = new Pneu(16, 70, "Pneu de Estepe", true);
 
+            Carro carro1 = new Carro();
             
-
-            Pneu pneu2 = new Pneu(16, 70, true, "Pneu de Estepe");
            
            
             

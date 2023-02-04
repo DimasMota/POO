@@ -14,7 +14,7 @@
         public bool Estepe { get; set; }
 
         
-        public Pneu(int _aro, int _velocidade, bool _estepe, string _tipo) // constror feito com ctor 
+        public Pneu(int _aro, int _velocidade, string _tipo, bool _estepe = false) // constror feito com ctor 
         {
             Aro = _aro;
             VelocidadeMaxima = _velocidade;
