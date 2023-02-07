@@ -13,7 +13,7 @@
         public int VelocidadeAtual { get; set; }
         public bool Estepe { get; set; }
 
-        
+        // CONSTRUTOR para inserir valores
         public Pneu(int _aro, int _velocidade, string _tipo, bool _estepe = false) // constror feito com ctor 
         {
             Aro = _aro;
